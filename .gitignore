@@ -9,6 +9,10 @@ dist/
 web-build/
 expo-env.d.ts
 
+#Docs
+design_handoff_primo_mobile/
+docs/
+
 # Native
 .kotlin/
 *.orig.*
@@ -31,6 +35,7 @@ yarn-error.*
 *.pem
 
 # local env files
+.env
 .env*.local
 
 # typescript
@@ -41,3 +46,9 @@ example
 # generated native folders
 /ios
 /android
+
+# JetBrains IDE
+.idea/
+
+# API probe output (scripts/probe-api.sh) — may contain real account data
+api-probe/
